@@ -1,7 +1,7 @@
 import React, { useContext, useEffect } from "react"
 // import { useHistory } from "react-router-dom" // import from libraries before your local modules
-import { CustomerContext } from "../customer/CustomerProvider"
-import { CustomerCard } from "../customer/CustomerCard"
+import { CustomerContext } from "./CustomerProvider"
+import { CustomerCard } from "./CustomerCard"
 import "./Customer.css"
 
 export const CustomerList = () => {
